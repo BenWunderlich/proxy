@@ -27,20 +27,16 @@ Get the latest [Helm release](https://github.com/helm/helm#install).
 
 Once you have Helm installed, add the repo as follows:
 
-**TBD**
-
-<!-- ```console
-helm repo add whatsapp_proxy https://WhatsApp.github.io/proxy
+```console
+helm repo add whatsapp-proxy https://WhatsApp.github.io/proxy
 helm repo update
-``` -->
-
-WhatsApp Proxy Helm charts can be also found on [ArtifactHub](https://artifacthub.io/packages/search?repo=WhatsApp).
+```
 
 ## Search and install charts
 
 ```console
-helm search repo WhatsApp/
-helm install my-release WhatsApp/<chart>
+helm search repo whatsapp-proxy/
+helm install my-release whatsapp-proxy/<CHART>
 ```
 
 **_NOTE_**: For instructions on how to install a chart follow instructions in its `README.md`.
@@ -48,3 +44,4 @@ helm install my-release WhatsApp/<chart>
 ## Contributing
 
 We welcome all contributions. Please refer to [guidelines](../CONTRIBUTING.md) on how to make a contribution.
+
